@@ -1,8 +1,20 @@
 import activeButton from '../assets/active-button.png';
 import nextButton from '../assets/next-button.png';
 import { faMagnifyingGlass, faMobile, faPen, faPenToSquare, faShop, faWrench } from '@fortawesome/free-solid-svg-icons';
-
 export { activeButton, nextButton };
+
+import userFocused from '../assets/user-focused.png';
+import accessibility from '../assets/accessibility.png';
+import modernWebDesign from '../assets/modern-web-design.png';
+import mobileDesign from '../assets/mobile-design.png';
+import allBrowsers from '../assets/all-browsers.png';
+import onTrend from '../assets/on-trend.png';
+import webDesign from '../assets/web-design.png';
+import codingBackground from '../assets/coding-background.jpg';
+import dataAnalytics from '../assets/data-analytics.jpg';
+import graphicDesign from '../assets/graphic-design.jpg';
+import musicStudio from '../assets/music-studio.jpg';
+import servers from '../assets/servers.jpg';
 
 export const navLinks = [
   { href: "#home", label: "Home" },
@@ -49,32 +61,32 @@ export const  cards = [
   {
     title: "Web Design",
     desc: "Elevate your brand online with our stunning WordPress web designs.",
-    img: "./src/assets/web-design.png",
+    img: webDesign,
   },
   {
     title: "Web Development",
     desc: "Unlock boundless possibilities with custom web development solutions.",
-    img: "./src/assets/coding-background.jpg",
+    img: codingBackground,
   },
   {
     title: "SEO",
     desc: "Boost rankings and drive traffic with out SEO services.",
-    img: "./src/assets/data-analytics.jpg",
+    img: dataAnalytics,
   },
   {
     title: "Graphic Design",
     desc: "Captivate your audience with visionary graphic designs.",
-    img: "./src/assets/graphic-design.jpg",
+    img: graphicDesign,
   },
   {
     title: "Media Production",
     desc: "Tell your story with our dynamic media production expertise.",
-    img: "./src/assets/music-studio.jpg",
+    img: musicStudio,
   },
   {
     title: "Web Hosting",
     desc: "Fast, secure and reliable website hosting services.",
-    img: "./src/assets/servers.jpg",
+    img: servers,
   },
 
 ];
@@ -100,36 +112,36 @@ export const infos = [
 
 export const details = [
   {
-    img: './src/assets/user-focused.png',
+    img: userFocused,
     title: "User Focused",
-    desc: "Our design put your visitors at the centre, giving them the best experience possible and created specifically for their  needs. We ensure your costumers have a great time using your new website.",
+    desc: "Our design puts your visitors at the centre, giving them the best experience possible and created specifically for their needs. We ensure your customers have a great time using your new website.",
   },
   {
-    img: './src/assets/accessibility.png',
+    img: accessibility,
     title: "Accessible",
-    desc: "We know that your website needs to perform for a range of users and we put accessibility at the forefront of our design and development.",
+    desc: "We know that your website needs to perform for a range of users, and we put accessibility at the forefront of our design and development.",
   },
   {
-    img: './src/assets/modern-web-design.png',
+    img: modernWebDesign,
     title: "Modern Interface Design",
-    desc: "Contemporary design is at the core of every one of our projects. We really enjoy getting creative with typhography and color palettes, layouts and iconography, and it shows in our work.",
+    desc: "Contemporary design is at the core of every one of our projects. We really enjoy getting creative with typography and color palettes, layouts, and iconography, and it shows in our work.",
   },
   {
-    img: './src/assets/mobile-design.png',
-    title: "Mobile led designs",
-    desc: "Living in a world where more than 50% of searches are now on a mobile device, we ensure all our WordPress websites are fully optimised across all modern mobile devices.",
+    img: mobileDesign,
+    title: "Mobile Led Designs",
+    desc: "Living in a world where more than 50% of searches are now on a mobile device, we ensure all our WordPress websites are fully optimized across all modern mobile devices.",
   },
   {
-    img: './src/assets/all-browsers.png',
-    title: "Built for all browsers",
-    desc: "The likes of Google, Microsoft and Apple control the browsers we all use in a daily basis. At web-a, we build all WordPress websites to work perfectly in all browsers on any size screen, ensuring your audience always see the best of you.",
+    img: allBrowsers,
+    title: "Built for All Browsers",
+    desc: "The likes of Google, Microsoft, and Apple control the browsers we all use on a daily basis. At Web-a, we build all WordPress websites to work perfectly in all browsers on any size screen, ensuring your audience always sees the best of you.",
   },
   {
-    img: './src/assets/on-trend.png',
-    title: "On-trend",
-    desc: "Our design team are constantly researching what's on-tredn in design, both in web and in the wider design world. Bringing these trends and new ideas to your website keep you current.",
+    img: onTrend,
+    title: "On-Trend",
+    desc: "Our design team is constantly researching what's on-trend in design, both on the web and in the wider design world. Bringing these trends and new ideas to your website keeps you current.",
   },
-]
+];
 
 export const faqs = [
   {

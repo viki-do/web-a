@@ -1,5 +1,6 @@
 import React from 'react';
 import { infos } from '../constants';
+import optionsImage from '../assets/options.svg'; 
 
 const MaintainYourWebsite = () => {
   return (
@@ -26,8 +27,8 @@ const MaintainYourWebsite = () => {
         </div>
         <div className='lg:w-8/12 lg:flex lg:justify-end lg:items-start lg:pt-0 lg:pl-10'>
           <img 
-            src="./src/assets/options.svg" 
-            alt="web design" 
+            src={optionsImage} 
+            alt="options image" 
             className="w-full h-auto object-cover"
           />
         </div>
@@ -37,3 +38,4 @@ const MaintainYourWebsite = () => {
 }
 
 export default MaintainYourWebsite;
+

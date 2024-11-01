@@ -1,4 +1,8 @@
 import React from 'react';
+// Képek importálása
+import quoteIcon from '../assets/quote.svg'; 
+import companyLogo from '../assets/company.jpg'; 
+import personImage from '../assets/person.png'; 
 
 const Testimonial = () => {
   return (
@@ -6,7 +10,7 @@ const Testimonial = () => {
       {/* Left side content */}
       <div className="flex flex-col col-span-7 relative">
         <img 
-          src="./src/assets/quote.svg" 
+          src={quoteIcon} 
           alt="quote icon" 
           className='absolute left-10 -top-8 z-0 w-40 lg:w-60'
         />
@@ -15,7 +19,7 @@ const Testimonial = () => {
         </p>
         <div className="flex gap-4 items-center z-10 relative">
           <div className="w-12 h-12 border-dark-blue-2 border-2 rounded-full flex items-center justify-center overflow-hidden">
-            <img src="./src/assets/company.jpg" alt="Company Logo" className="h-full object-cover" />
+            <img src={companyLogo} alt="Company Logo" className="h-full object-cover" /> 
           </div>
           <div className='font-bold leading-tight'>
             <p>John Doe</p>
@@ -26,7 +30,7 @@ const Testimonial = () => {
 
       {/* Right side image */}
       <div className="flex pt-10 col-span-5 justify-center lg:justify-end">
-        <img src="./src/assets/person.png" alt="Person" className="h-85 object-cover lg:h-100" />
+        <img src={personImage} alt="Person" className="h-85 object-cover lg:h-100" /> 
       </div>
     </div>
   );

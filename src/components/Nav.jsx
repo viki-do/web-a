@@ -1,18 +1,19 @@
 import React, { useState, useEffect, useRef } from "react";
 import { navLinks } from "../constants";
 import hamburger from "../assets/hamburger.svg";
+import logoImage from "../assets/logo.png";
 
 const Nav = () => {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
   const [bgColor, setBgColor] = useState(window.scrollY > 110 ? "bg-dark-blue" : "bg-transparent");
-  const [logo, setLogo] = useState(window.scrollY > 110 ? "./src/assets/logo.png" : null);
+  const [logo, setLogo] = useState(window.scrollY > 110 ? logoImage : null);
   const menuRef = useRef(null);
 
   useEffect(() => {
     const handleScroll = () => {
       if (window.scrollY > 110) {
         setBgColor("bg-dark-blue");
-        setLogo("./src/assets/logo.png");
+        setLogo(logoImage); 
       } else {
         setBgColor("bg-transparent");
         setLogo(null);
