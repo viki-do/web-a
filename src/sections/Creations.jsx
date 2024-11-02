@@ -34,7 +34,7 @@ const Creations = () => {
 
   return (
     <div className="flex flex-col ">
-      <p className='text-dark-blue text-4xl leading-7 pb-10 pl-12 pt-30 lg:text-6xl lg:pl-40 lg:pt-20 lg:pb-6'>
+      <p className='text-dark-blue text-4xl leading-7 pb-10 px-12 pt-30 lg:text-6xl lg:pl-40 lg:pt-20 lg:pb-6'>
         View our latest web creations<span className='text-turquise'>.</span>
       </p>
       <div className='flex justify-center items-center mb-6 overflow-hidden relative h-52 lg:h-100'>

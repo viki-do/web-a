@@ -1,14 +1,14 @@
 import React from 'react';
 import { infos } from '../constants';
-import optionsImage from '../assets/options.svg'; 
+import optionsImage from '../assets/options.svg';
 
 const MaintainYourWebsite = () => {
   return (
-    <div className='flex flex-col pl-12 pt-20 text-3xl bg-gradient2 lg:pt-40 lg:pl-40'>
+    <div className='flex flex-col pl-12 pr-12 pt-20 text-3xl bg-gradient2 lg:pt-40 lg:pl-40'>
       <p className='pb-20 text-3xl lg:text-7xl lg:pb-40'>
-        <span className='font-bold'>Effortlessly maintain</span>
+        <span className='font-bold'>Effortlessly maintain </span>
         <span className="hidden lg:inline"> </span>
-        <span className='whitespace-nowrap lg:block'>your website<span className='text-turquise'>.</span></span>
+        <span className='lg:block'>your website<span className='text-turquise'>.</span></span>
       </p>
       <div className='flex flex-col lg:flex-row lg:justify-between'>
         <div className='lg:w-4/12'>
@@ -38,4 +38,3 @@ const MaintainYourWebsite = () => {
 }
 
 export default MaintainYourWebsite;
-

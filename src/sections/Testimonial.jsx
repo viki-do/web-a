@@ -6,8 +6,8 @@ import personImage from '../assets/person.png';
 
 const Testimonial = () => {
   return (
-    <div className="bg-white px-6 lg:px-40 leading-7 mt-20 flex flex-col relative lg:grid lg:grid-cols-12 lg:gap-4">
-      {/* Left side content */}
+    <div className="bg-white px-12 lg:px-40 leading-7 mt-20 flex flex-col relative lg:grid lg:grid-cols-12 lg:gap-4">
+      {/* Bal oldali tartalom */}
       <div className="flex flex-col col-span-7 relative">
         <img 
           src={quoteIcon} 
@@ -28,9 +28,13 @@ const Testimonial = () => {
         </div>
       </div>
 
-      {/* Right side image */}
+      {/* Jobb oldali kép */}
       <div className="flex pt-10 col-span-5 justify-center lg:justify-end">
-        <img src={personImage} alt="Person" className="h-85 object-cover lg:h-100" /> 
+        <img 
+          src={personImage} 
+          alt="Person" 
+          className="w-full max-w-xs lg:max-w-none lg:h-100 object-contain"
+        /> 
       </div>
     </div>
   );

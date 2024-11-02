@@ -4,7 +4,7 @@ import { footerInfos, footerLinks, footerServices } from "../constants";
 const Footer = () => {
   return (
     <div className="flex flex-col h-full bg-dark-blue pt-28">
-      <div className="text-center text-white text-4xl px-32 lg:text-6xl">
+      <div className="text-center text-white text-4xl px-20 lg:px-36 lg:text-6xl">
         <p>Ready to chat about</p>
         <p className="pb-10"><span className="text-turquise">your project?</span></p>
         <p className="text-base leading-6">
@@ -28,7 +28,7 @@ const Footer = () => {
             <p key={index} className="text-white text-xs mb-4 leading-6 cursor-pointer">{info}</p>
           ))}
         </div>
-        <div className="flex flex-col">
+        <div className="flex flex-col pl-8">
           <p className="text-white text-3xl font-semibold pb-8">Links</p>
           {footerLinks.map(({ link }, index) => (
             <p key={index} className="text-white text-xs mb-4 leading-6 cursor-pointer">{link}</p>

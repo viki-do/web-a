@@ -5,15 +5,15 @@ import { cards } from '../constants';
 
 const ServicesThatDriveResults = () => {
   return (  
-    <div className='flex flex-col bg-dark-blue px-12 pt-20 pb-20 lg:px-40'>
-      <div className='flex justify-center lg:justify-start items-center mb-12'>
+    <div className='flex flex-col bg-dark-blue pt-20 pb-20 lg:px-40'>
+      <div className='flex justify-center lg:justify-start items-center mb-12 px-8'>
         <p className='text-white text-4xl lg:text-6xl text-center lg:text-left'>
           <span className='text-turquise'>Web design services</span> <br /> 
           that drive results
           <span className='text-turquise'>.</span>
         </p>
       </div> 
-      <div className='grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6'>
+      <div className='px-12 grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6'>
         {cards.map(({ title, desc, img }) => (
           <div 
             key={title} 

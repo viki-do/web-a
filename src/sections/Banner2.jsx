@@ -10,7 +10,7 @@ const Banner = () => {
       </p>
       
       <button
-        className='bg-white text-dark-blue text-md font-bold py-4 px-6 rounded-full w-96 text-base lg:w-64' // Fixed width
+        className='bg-white text-dark-blue text-md font-bold py-4 px-6 rounded-full w-80 text-base lg:w-64' // Fixed width
         onMouseEnter={() => setIsHovered(true)}
         onMouseLeave={() => setIsHovered(false)} 
       >

@@ -37,7 +37,7 @@ const Details = () => {
 
       <div className='right-side w-full lg:w-1/2 flex flex-col'>
         {services.map(({ title, desc, logo }) => (
-          <div key={title} className='bg-card-gray py-3 px-2 mb-3 lg:py-5 h-44 lg:h-40 flex flex-col'>
+          <div key={title} className='bg-card-gray py-3 px-2 mb-3 lg:py-5 h-52 lg:h-40 flex flex-col'>
             <div className='flex p-2 flex-grow'>
               <div className='flex-col w-1/12 justify-center items-center pr-8 pl-1 '>
                 <FontAwesomeIcon icon={logo.icon} style={{ color: logo.color }} className='lg:h-5' />

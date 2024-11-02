@@ -27,9 +27,9 @@ const Questions = () => {
           >
             <p className='font-semibold'>{question}</p>
             {openQuestions[question] ? (
-              <FontAwesomeIcon icon={faMinus} style={{ color: "#09d691" }} className='h-6' />
+              <FontAwesomeIcon icon={faMinus} style={{ color: "#09d691" }} className='h-6 pl-2' />
             ) : (
-              <FontAwesomeIcon icon={faPlus} style={{ color: "#09d691" }} className='h-6' />
+              <FontAwesomeIcon icon={faPlus} style={{ color: "#09d691" }} className='h-6 pl-2' />
             )}
           </div>
           {openQuestions[question] && (
